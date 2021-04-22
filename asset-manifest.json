@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BattleBoat/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/BattleBoat/static/js/main.6d8b3fcd.chunk.js",
+    "main.js.map": "/BattleBoat/static/js/main.6d8b3fcd.chunk.js.map",
+    "runtime-main.js": "/BattleBoat/static/js/runtime-main.f895de56.js",
+    "runtime-main.js.map": "/BattleBoat/static/js/runtime-main.f895de56.js.map",
+    "static/js/2.847046f8.chunk.js": "/BattleBoat/static/js/2.847046f8.chunk.js",
+    "static/js/2.847046f8.chunk.js.map": "/BattleBoat/static/js/2.847046f8.chunk.js.map",
+    "index.html": "/BattleBoat/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/BattleBoat/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.847046f8.chunk.js.LICENSE.txt": "/BattleBoat/static/js/2.847046f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f895de56.js",
+    "static/js/2.847046f8.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6d8b3fcd.chunk.js"
+  ]
+}
