@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Game } from "./Game";
+import { createContext } from "react";
+import { useAlert } from "./useAlert";
+export const AlertContext = createContext();
 
 function App() {
+  const [alerts, addAlert] = useAlert(1, 2000);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Battle Boat</h1>
       </header>
-    </div>
+      <AlertContext.Provider value={addAlert}>
+        <div className="contentContainer">
+          <Game />
+        </div>
+      </AlertContext.Provider>
+      {alerts}
+    </>
   );
 }
 
