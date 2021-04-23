@@ -28,7 +28,7 @@ Styled components is realllllly powerful libary for working with react-component
 
 ### useRef,useReducer,custom hooks, useContext.
 
-`useContext`, especially used with `useReducer` is REALLY powerful! I found, however that `useReducer` didn't exactly accomplish what I wanted it to. While it made bundling logic for the game MUCH easier, I still had to organize my data differently than what feels instinctual. This article was helpful: (Redux: Normalizing-State-Shap)[https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape]. This is still one of my chief hangups with React, but once the data was normalized, I had a much better time with immuatbility. I'd be interested to check out libraries like _immer_ or _immutable.js_.
+`useContext`, especially used with `useReducer` is REALLY powerful! I found, however that `useReducer` didn't exactly accomplish what I wanted it to. While it made bundling logic for the game MUCH easier, I still had to organize my data differently than what feels instinctual. This article was helpful: [Redux: Normalizing-State-Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape). This is still one of my chief hangups with React, but once the data was normalized, I had a much better time with immuatbility. I'd be interested to check out libraries like _immer_ or _immutable.js_.
 
 Initially I sought to use a lot of custom hooks for this project, before moving a good deal of the logic into my game reducer. I'm particularly proud of my `useAlert` hook, that allows for global access to an array of alerts.
 
